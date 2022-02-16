@@ -1,0 +1,5 @@
+file = open("myfile.txt", "w")
+file.write("Hello Aakash")
+file = open("myfile.txt","a")
+file.write("I am using append mode")
+file.close()
